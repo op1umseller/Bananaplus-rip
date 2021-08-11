@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "bananaplus",
+  "version": "0.1",
+  "name": "Banana+",
+  "description": "Banana+ addon for the Meteor Addon API.",
+  "authors": [
+    "Bennooo",
+    "Necro"
+  ],
+  "contact": {
+    "repo": "https://github.com/MeteorDevelopment/meteor-addon-template"
+  },
+  "icon": "assets/template/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "meteor": [
+      "bplusdevelopment.addons.AddModule"
+    ]
+  },
+  "mixins": [
+    "banana.mixins.json"
+  ],
+  "depends": {
+    "java": ">=16",
+    "minecraft": ">=1.17",
+    "meteor-client": ">0.4.4"
+  }
+}

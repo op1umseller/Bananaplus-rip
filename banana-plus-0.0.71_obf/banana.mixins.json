@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "bplusdevelopment.mixins",
+  "compatibilityLevel": "JAVA_16",
+  "client": [
+    "TitleScreenMixin",
+    "KeyboardInputMixin",
+    "CustomSplashMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "refmap": "banana-plus-refmap.json"
+}
